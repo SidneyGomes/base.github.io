@@ -1,0 +1,34 @@
+body {
+    background-color: #000000; /* Fundo branco */
+    font-family: Arial, sans-serif;
+    margin: 0; /* Remove margens padrão do body */
+    padding: 0; /* Remove preenchimento padrão do body */
+    height: 100vh; /* Garante que o body ocupe 100% da altura da viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #FFFFFF; /* Fundo branco para a área do conteúdo */
+}
+
+.top-spacing {
+    margin-top: 100px; /* Espaçamento do topo para o carrossel */
+}
+
+.base-pepe {
+    font-family: 'Gagalin', cursive;
+    color: black; /* Cor do texto preta para contraste com o fundo branco */
+    margin-top: 100px; /* Espaçamento do topo para o texto "Base Pepe" */
+}
+
+.icon-container {
+    margin-top: 20px;
+}
+
+.clickable-icon {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
